@@ -1,5 +1,5 @@
 ---
-layout: costum
+layout: default
 title: Matuszakowie
 author: Vesna Jakse
 webmaster: Veszna

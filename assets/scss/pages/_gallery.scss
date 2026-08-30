@@ -1,0 +1,19 @@
+.album-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Tillåter bilderna att bryta till ny rad */
+    justify-content: space-around;
+    /* Centrerar bilderna med utrymme runt sig */
+    gap: 16px;
+    /* Avstånd mellan bilderna */
+}
+
+.album-image {
+    max-height: 300px;
+    width: auto;
+    /* Låter bredden anpassas proportionellt */
+}
+
+// .album-caption {
+//     // bildtext
+// }

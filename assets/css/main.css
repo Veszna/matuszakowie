@@ -192,8 +192,10 @@ footer {
 
 .album-image {
   max-height: 300px;
-  width: auto;
-  /* Låter bredden anpassas proportionellt */
+  max-width: 100%;
+  /* NYTT: Bevarar proportionerna utan att stretcha bilden */
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .image-text-container {

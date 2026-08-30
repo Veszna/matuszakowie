@@ -10,8 +10,9 @@
 
 .album-image {
     max-height: 300px;
-    width: auto;
-    /* Låter bredden anpassas proportionellt */
+    max-width: 100%;
+    /* NYTT: Bevarar proportionerna utan att stretcha bilden */
+    object-fit: contain;
 }
 
 // .album-caption {
